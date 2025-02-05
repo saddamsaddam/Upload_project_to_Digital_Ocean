@@ -1,3 +1,5 @@
+................................Summary............................................
+
 Step1: loging
 
 Step2:Move to project directory :
@@ -43,6 +45,12 @@ Stop container: docker restart <id or name>
 Thanks
 
 saddamnvn
+
+
+
+...................................///................................................
+
+
 
 
 
