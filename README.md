@@ -1,26 +1,47 @@
 Step1: loging
+
 Step2:Move to project directory :
+
    root@ubuntu-cit-ocean:cd /www/wwwroot/snvn.deepseahost.com/DeviceManagement/
+   
 Step3: check running and stopped container:
+
    docker ps -a
+   
 step4: check images:
+
    docker images
+   
 step5: create image by building with name(tag) and version:
+
    docker build -t snvn:v1    //  docker build -t snvn
+
 step6: check container and images again
+
 step7: run image with verion:
+
    docker run --name snvnv1 -d -p 8080:8080 snvn:v1  //  docker run --name snvnv1 -d -p 8080:8080 snvn
+   
 step8: chek container to confirm run or not:
+
    docker ps -a
+   
 step9: check website by deleting cashe.
 
+
 some comment:
+
 Remove the container:docker rm -f <container_id_or_name>
+
 Remove image: docker rmi <id or name>
+
 Start container: docker start <id or name>
+
 Stop container: docker restart <id or name>
 
+
 Thanks
+
 saddamnvn
 
 
