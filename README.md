@@ -31,7 +31,7 @@ step8: chek container to confirm run or not:
 step9: check website by deleting cashe.
 
 
-some comment:
+some important command:
 
 Remove the container:docker rm -f <container_id_or_name>
 
