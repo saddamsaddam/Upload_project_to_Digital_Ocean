@@ -1,5 +1,26 @@
 ................................Summary............................................
 
+
+.........................    Working process:......................................
+
+1.   running container delete
+   
+2.   running image delete
+  
+3.   source code uploaed
+
+4.   build image
+
+5.   run container
+
+6.   domain check
+
+
+
+...................................Commands.........................................
+
+
+
 Step1: loging
 
 Step2:Move to project directory :
