@@ -1,5 +1,7 @@
 
 which will delete first container or image?
+
+
 When using `docker rmi` (to remove an image), Docker will first check if there are any containers that are using that image. If there are stopped or running containers associated with the image, Docker will prevent the image from being deleted.
 
 Therefore, **you must delete the containers first** before you can remove the image. Here's the correct sequence:
