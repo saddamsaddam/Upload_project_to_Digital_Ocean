@@ -37,7 +37,7 @@ step4: check images:
    
 step5: create image by building with name(tag) and version:
 
-   docker build -t snvn:v1    //  docker build -t snvn
+   docker build -t snvn:v1 .    //  docker build -t snvn .
 
 step6: check container and images again
 
